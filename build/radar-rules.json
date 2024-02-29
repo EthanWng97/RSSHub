@@ -1332,6 +1332,44 @@
       }
     ]
   },
+  "4gamers.com.tw": {
+    "_name": "4Gamers",
+    "www": [
+      {
+        "title": "最新消息",
+        "docs": "https://docs.rsshub.app/routes/game#4gamers",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/4gamers"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/routes/game#4gamers",
+        "source": [
+          "/news/category/:category/:categoryName"
+        ],
+        "target": "/4gamers/category/:category"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/routes/game#4gamers",
+        "source": [
+          "/news/tag/:tag"
+        ],
+        "target": "/4gamers/tag/:tag"
+      },
+      {
+        "title": "主題",
+        "docs": "https://docs.rsshub.app/routes/game#4gamers",
+        "source": [
+          "/news/option-cfg/:topic"
+        ],
+        "target": "/4gamers/topic/:topic"
+      }
+    ]
+  },
   "4ksj.com": {
     "_name": "4k 世界",
     ".": [
@@ -1394,6 +1432,115 @@
         "docs": "https://docs.rsshub.app/routes/new-media#52hrtt-hua-ren-tou-tiao",
         "source": "/global/n/w/symposium/:id",
         "target": "/52hrtt/symposium/:id"
+      }
+    ]
+  },
+  "56kog.com": {
+    "_name": "明月中文网",
+    ".": [
+      {
+        "title": "玄幻魔法",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/1_1.html"
+        ],
+        "target": "/56kog/class/1_1"
+      },
+      {
+        "title": "武侠修真",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/2_1.html"
+        ],
+        "target": "/56kog/class/2_1"
+      },
+      {
+        "title": "历史军事",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/4_1.html"
+        ],
+        "target": "/56kog/class/4_1"
+      },
+      {
+        "title": "侦探推理",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/5_1.html"
+        ],
+        "target": "/56kog/class/5_1"
+      },
+      {
+        "title": "网游动漫",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/6_1.html"
+        ],
+        "target": "/56kog/class/6_1"
+      },
+      {
+        "title": "恐怖灵异",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/8_1.html"
+        ],
+        "target": "/56kog/class/8_1"
+      },
+      {
+        "title": "都市言情",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/3_1.html"
+        ],
+        "target": "/56kog/class/3_1"
+      },
+      {
+        "title": "科幻",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/7_1.html"
+        ],
+        "target": "/56kog/class/7_1"
+      },
+      {
+        "title": "女生小说",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/9_1.html"
+        ],
+        "target": "/56kog/class/9_1"
+      },
+      {
+        "title": "其他",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-fen-lei",
+        "source": [
+          "/class/10_1.html"
+        ],
+        "target": "/56kog/class/10_1"
+      },
+      {
+        "title": "周点击榜",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-bang-dan",
+        "source": [
+          "/top/weekvisit_1.html"
+        ],
+        "target": "/56kog/top/weekvisit"
+      },
+      {
+        "title": "总收藏榜",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-bang-dan",
+        "source": [
+          "/top/goodnum_1.html"
+        ],
+        "target": "/56kog/top/goodnum"
+      },
+      {
+        "title": "最新入库",
+        "docs": "https://docs.rsshub.app/routes/reading#ming-yue-zhong-wen-wang-bang-dan",
+        "source": [
+          "/top/postdate_1.html"
+        ],
+        "target": "/56kog/top/postdate"
       }
     ]
   },
@@ -4008,7 +4155,7 @@
     ".": [
       {
         "title": "外汇牌价",
-        "docs": "https://docs.rsshub.app/routes/others#zhong-guo-yin-hang",
+        "docs": "https://docs.rsshub.app/routes/other#zhong-guo-yin-hang",
         "source": [
           "/sourcedb/whpj",
           "/"
@@ -4132,6 +4279,19 @@
         "source": [
           "/*"
         ]
+      }
+    ]
+  },
+  "bulianglin.com": {
+    "_name": "不良林",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#bu-liang-lin",
+        "source": [
+          "/"
+        ],
+        "target": "/bulianglin"
       }
     ]
   },
@@ -7947,13 +8107,12 @@
     ],
     "www.genetics": [
       {
-        "title": "遗传与生物学研究所 - 学术活动",
+        "title": "遗传与发育生物学研究所",
         "docs": "https://docs.rsshub.app/routes/university#zhong-guo-ke-xue-yuan",
         "source": [
-          "/jixs/yg",
-          "/"
+          "/*path"
         ],
-        "target": "/cas/genetics/xshd"
+        "target": "/cas/genetics/*path"
       }
     ],
     "www.ia": [
@@ -8584,6 +8743,15 @@
         "source": [
           "/gxportal/xfgl/portal/list.html"
         ]
+      }
+    ]
+  },
+  "chinamoney.com.cn": {
+    "_name": "中国货币网",
+    ".": [
+      {
+        "title": "公告",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-guo-huo-bi-wang"
       }
     ]
   },
@@ -9656,6 +9824,19 @@
       }
     ]
   },
+  "cib.com.cn": {
+    "_name": "中国兴业银行",
+    ".": [
+      {
+        "title": "外汇牌价",
+        "docs": "https://docs.rsshub.app/routes/other#zhong-guo-xing-ye-yin-hang",
+        "source": [
+          "/"
+        ],
+        "target": "/cib/whpj"
+      }
+    ]
+  },
   "ciidbnu.org": {
     "_name": "中国收入分配研究院",
     ".": [
@@ -9683,6 +9864,19 @@
         "docs": "https://docs.rsshub.app/routes/program-update#civitai",
         "source": "/models/:modelId",
         "target": "/civitai/discussions/:modelId"
+      }
+    ]
+  },
+  "ciweimao.com": {
+    "_name": "刺猬猫",
+    "wap": [
+      {
+        "title": "章节",
+        "docs": "https://docs.rsshub.app/routes/reading#ci-wei-mao",
+        "source": [
+          "/book/:id"
+        ],
+        "target": "/ciweimao/chapter/:id"
       }
     ]
   },
@@ -10576,6 +10770,300 @@
         "docs": "https://docs.rsshub.app/routes/social-media#crossbell",
         "source": "/*",
         "target": "/crossbell/notes/source/xlog"
+      }
+    ]
+  },
+  "cs.com.cn": {
+    "_name": "中证网",
+    ".": [
+      {
+        "title": "要闻",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/xwzx/"
+        ],
+        "target": "/cs/xwzx"
+      },
+      {
+        "title": "公司",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/ssgs/"
+        ],
+        "target": "/cs/ssgs"
+      },
+      {
+        "title": "市场",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/"
+        ],
+        "target": "/cs/gppd"
+      },
+      {
+        "title": "基金",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/"
+        ],
+        "target": "/cs/tzjj"
+      },
+      {
+        "title": "科创",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/5g/"
+        ],
+        "target": "/cs/5g"
+      },
+      {
+        "title": "产经",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/cj2020/"
+        ],
+        "target": "/cs/cj2020"
+      },
+      {
+        "title": "期货",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/zzqh2020/"
+        ],
+        "target": "/cs/zzqh2020"
+      },
+      {
+        "title": "海外",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/hw2020/"
+        ],
+        "target": "/cs/hw2020"
+      },
+      {
+        "title": "财经要闻",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/xwzx/hg/"
+        ],
+        "target": "/cs/xwzx/hg"
+      },
+      {
+        "title": "观点评论",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/xwzx/jr/"
+        ],
+        "target": "/cs/xwzx/jr"
+      },
+      {
+        "title": "民生消费",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/xwzx/msxf/"
+        ],
+        "target": "/cs/xwzx/msxf"
+      },
+      {
+        "title": "公司要闻",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/ssgs/gsxw/"
+        ],
+        "target": "/cs/ssgs/gsxw"
+      },
+      {
+        "title": "公司深度",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/ssgs/gssd/"
+        ],
+        "target": "/cs/ssgs/gssd"
+      },
+      {
+        "title": "公司巡礼",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/ssgs/gsxl/"
+        ],
+        "target": "/cs/ssgs/gsxl"
+      },
+      {
+        "title": "A股市场",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/gsyj/"
+        ],
+        "target": "/cs/gppd/gsyj"
+      },
+      {
+        "title": "港股资讯",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/ggzx/"
+        ],
+        "target": "/cs/gppd/ggzx"
+      },
+      {
+        "title": "债市研究",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/zqxw/"
+        ],
+        "target": "/cs/gppd/zqxw"
+      },
+      {
+        "title": "海外报道",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/hwbd/"
+        ],
+        "target": "/cs/gppd/hwbd"
+      },
+      {
+        "title": "期货报道",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/gppd/qhbd/"
+        ],
+        "target": "/cs/gppd/qhbd"
+      },
+      {
+        "title": "基金动态",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/jjdt/"
+        ],
+        "target": "/cs/tzjj/jjdt"
+      },
+      {
+        "title": "基金视点",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/jjks/"
+        ],
+        "target": "/cs/tzjj/jjks"
+      },
+      {
+        "title": "基金持仓",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/jjcs/"
+        ],
+        "target": "/cs/tzjj/jjcs"
+      },
+      {
+        "title": "私募基金",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/smjj/"
+        ],
+        "target": "/cs/tzjj/smjj"
+      },
+      {
+        "title": "基民学苑",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/tzjj/tjdh/"
+        ],
+        "target": "/cs/tzjj/tjdh"
+      },
+      {
+        "title": "券商",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/qs/"
+        ],
+        "target": "/cs/qs"
+      },
+      {
+        "title": "银行",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/yh/"
+        ],
+        "target": "/cs/yh"
+      },
+      {
+        "title": "保险",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/bx/"
+        ],
+        "target": "/cs/bx"
+      },
+      {
+        "title": "中证快讯 7x24",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/sylm/jsbd/"
+        ],
+        "target": "/cs/sylm/jsbd"
+      },
+      {
+        "title": "IPO鉴真",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/yc/ipojz/"
+        ],
+        "target": "/cs/yc/ipojz"
+      },
+      {
+        "title": "公司能见度",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-lan-mu",
+        "source": [
+          "/yc/gsnjd/"
+        ],
+        "target": "/cs/yc/gsnjd"
+      }
+    ],
+    "video": [
+      {
+        "title": "中证视频",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ]
+      },
+      {
+        "title": "今日聚焦",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ],
+        "target": "/cs/video/今日聚焦"
+      },
+      {
+        "title": "传闻求证",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ],
+        "target": "/cs/video/传闻求证"
+      },
+      {
+        "title": "高端访谈",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ],
+        "target": "/cs/video/高端访谈"
+      },
+      {
+        "title": "投教课堂",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ],
+        "target": "/cs/video/投教课堂"
+      },
+      {
+        "title": "直播汇",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-zheng-wang-zhong-zheng-shi-pin",
+        "source": [
+          "list.html"
+        ],
+        "target": "/cs/video/直播汇"
       }
     ]
   },
@@ -12819,6 +13307,28 @@
       }
     ]
   },
+  "fansly.com": {
+    "_name": "Fansly",
+    ".": [
+      {
+        "title": "User Timeline",
+        "docs": "https://docs.rsshub.app/routes/social-media.html#fansly",
+        "source": [
+          "/:username/posts",
+          "/:username/media"
+        ],
+        "target": "/fansly/user/:username"
+      },
+      {
+        "title": "Hashtag",
+        "docs": "https://docs.rsshub.app/routes/social-media.html#fansly",
+        "source": [
+          "/explore/tag/:tag"
+        ],
+        "target": "/fansly/tag/:tag"
+      }
+    ]
+  },
   "fantia.jp": {
     "_name": "Fantia",
     ".": [
@@ -13321,6 +13831,19 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "free.com.tw": {
+    "_name": "免費資源網路社群",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#mian-fei-zi-yuan-wang-lu-she-qun",
+        "source": [
+          "/"
+        ],
+        "target": "/free"
       }
     ]
   },
@@ -17727,6 +18250,17 @@
       }
     ]
   },
+  "hbooker.com": {
+    "_name": "欢乐书客",
+    ".": [
+      {
+        "title": "章节",
+        "docs": "https://docs.rsshub.app/routes/reading#huan-le-shu-ke",
+        "source": "/book/:id",
+        "target": "/hbooker/chapter/:id"
+      }
+    ]
+  },
   "hbr.org": {
     "_name": "Harvard Business Review",
     ".": [
@@ -17925,6 +18459,19 @@
           "/blog"
         ],
         "target": "/hex-rays/news"
+      }
+    ]
+  },
+  "hicairo.com": {
+    "_name": "HiFeng'Blog",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#hifeng-blog",
+        "source": [
+          "/"
+        ],
+        "target": "/hicairo"
       }
     ]
   },
@@ -18325,6 +18872,19 @@
           "/"
         ],
         "target": "/houxu/lives/:id"
+      }
+    ]
+  },
+  "howtoforge.com": {
+    "_name": "Howtoforge Linux Tutorials",
+    ".": [
+      {
+        "title": "学习",
+        "docs": "https://docs.rsshub.app/routes/study#howtoforge-linux-tutorials",
+        "source": [
+          "/"
+        ],
+        "target": "/howtoforge"
       }
     ]
   },
@@ -18944,6 +19504,54 @@
       }
     ]
   },
+  "indienova.com": {
+    "_name": "indienova 独立游戏",
+    ".": [
+      {
+        "title": "文章",
+        "docs": "https://docs.rsshub.app/routes/game#indienova-du-li-you-xi",
+        "source": [
+          "/indie-game-news",
+          "/"
+        ],
+        "target": "/indienova/article"
+      },
+      {
+        "title": "开发",
+        "docs": "https://docs.rsshub.app/routes/game#indienova-du-li-you-xi",
+        "source": [
+          "/indie-game-development",
+          "/"
+        ],
+        "target": "/indienova/development"
+      },
+      {
+        "title": "专题",
+        "docs": "https://docs.rsshub.app/routes/game#indienova-du-li-you-xi",
+        "source": [
+          "/column/:columnId"
+        ],
+        "target": "/indienova/column/:columnId"
+      },
+      {
+        "title": "GameDB 游戏库",
+        "docs": "https://docs.rsshub.app/routes/game#indienova-du-li-you-xi",
+        "source": [
+          "/gamedb/recent/:platform/p/1"
+        ],
+        "target": "/indienova/gamedb/recent/:platform"
+      },
+      {
+        "title": "会员开发游戏库",
+        "docs": "https://docs.rsshub.app/routes/game#indienova-du-li-you-xi",
+        "source": [
+          "/usergames",
+          "/"
+        ],
+        "target": "/indienova/usergames"
+      }
+    ]
+  },
   "inewsweek.cn": {
     "_name": "中国新闻周刊",
     ".": [
@@ -19360,7 +19968,7 @@
     ".": [
       {
         "title": "最近更新",
-        "docs": "https://docs.rsshub.app/routes/others#ai-q-sheng-huo-wang",
+        "docs": "https://docs.rsshub.app/routes/other#ai-q-sheng-huo-wang",
         "source": [
           "/post/new_100/",
           "/"
@@ -22139,6 +22747,25 @@
       }
     ]
   },
+  "jjwxc.net": {
+    "_name": "晋江文学城",
+    ".": [
+      {
+        "title": "作者最新作品",
+        "docs": "https://docs.rsshub.app/routes/reading#jin-jiang-wen-xue-cheng-zuo-zhe-zui-xin-zuo-pin",
+        "source": [
+          "oneauthor.php"
+        ]
+      },
+      {
+        "title": "作品",
+        "docs": "https://docs.rsshub.app/routes/reading#jin-jiang-wen-xue-cheng-zuo-pin",
+        "source": [
+          "onebook.php"
+        ]
+      }
+    ]
+  },
   "jornada.com.mx": {
     "_name": "La Jornada",
     ".": [
@@ -22187,6 +22814,39 @@
           "/webfile/news/:type"
         ],
         "target": "/jseea/news/:type"
+      }
+    ]
+  },
+  "jsu.edu.cn": {
+    "_name": "吉首大学",
+    ".": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#ji-shou-da-xue-tong-zhi-gong-gao"
+      }
+    ],
+    "cxzx": [
+      {
+        "title": "创新中心",
+        "docs": "https://docs.rsshub.app/routes/university#ji-shou-da-xue-chuang-xin-zhong-xin"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/routes/university#ji-shou-da-xue-jiao-wu-chu"
+      }
+    ],
+    "rjxy": [
+      {
+        "title": "计算机科学与工程学院",
+        "docs": "https://docs.rsshub.app/routes/university##ji-shou-da-xue-ji-suan-ji-ke-xue-yu-gong-cheng-xue-yuan"
+      }
+    ],
+    "stxy": [
+      {
+        "title": "数学与统计学院",
+        "docs": "https://docs.rsshub.app/routes/university#ji-shou-da-xue-shu-xue-yu-tong-ji-xue-yuan"
       }
     ]
   },
@@ -22807,6 +23467,19 @@
         "docs": "https://docs.rsshub.app/routes/anime#lai-man-hua",
         "source": "/kanmanhua/:id",
         "target": "/laimanhua/:id"
+      }
+    ]
+  },
+  "lala.im": {
+    "_name": "荒岛",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#huang-dao",
+        "source": [
+          "/"
+        ],
+        "target": "/lala"
       }
     ]
   },
@@ -23734,6 +24407,117 @@
       }
     ]
   },
+  "m4.cn": {
+    "_name": "四月网",
+    "news": [
+      {
+        "title": "要闻 - 国内新闻",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/china/"
+        ],
+        "target": "/m4/news/china"
+      },
+      {
+        "title": "要闻 - 国际新闻",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/world/"
+        ],
+        "target": "/m4/news/world"
+      },
+      {
+        "title": "要闻 - 民生",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/livelihood/"
+        ],
+        "target": "/m4/news/livelihood"
+      },
+      {
+        "title": "要闻 - 社会",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/society/"
+        ],
+        "target": "/m4/news/society"
+      },
+      {
+        "title": "要闻 - 财经",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/finance/"
+        ],
+        "target": "/m4/news/finance"
+      },
+      {
+        "title": "要闻 - 科技",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-yao-wen",
+        "source": [
+          "/tech/"
+        ],
+        "target": "/m4/news/tech"
+      }
+    ],
+    "mil": [
+      {
+        "title": "军事 - 中国军情",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/china/"
+        ],
+        "target": "/m4/mil/china"
+      },
+      {
+        "title": "军事 - 国际军情",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/world/"
+        ],
+        "target": "/m4/mil/world"
+      },
+      {
+        "title": "军事 - 军事评论",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/views/"
+        ],
+        "target": "/m4/mil/views"
+      },
+      {
+        "title": "军事 - 军事历史",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/history/"
+        ],
+        "target": "/m4/mil/history"
+      },
+      {
+        "title": "军事 - 军迷说",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/talk/"
+        ],
+        "target": "/m4/mil/talk"
+      },
+      {
+        "title": "军事 - 图说军事",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/photo/"
+        ],
+        "target": "/m4/mil/photo"
+      },
+      {
+        "title": "军事 - 武器库",
+        "docs": "https://docs.rsshub.app/routes/new-media#si-yue-wang-jun-shi",
+        "source": [
+          "/arms/"
+        ],
+        "target": "/m4/mil/arms"
+      }
+    ]
+  },
   "macfilos.com": {
     "_name": "Macfilos",
     ".": [
@@ -24205,6 +24989,12 @@
         "title": "米游社 - 用户帖子",
         "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
         "source": "/:game/accountCenter/postList"
+      },
+      {
+        "title": "米游社 - 用户关注动态",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/timeline",
+        "target": "/mihoyo/bbs/timeline"
       }
     ],
     "sr": [
@@ -24254,6 +25044,12 @@
         "title": "米游社 - 用户帖子",
         "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
         "source": "/:game/accountCenter/postList"
+      },
+      {
+        "title": "米游社 - 用户关注动态",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/timeline",
+        "target": "/mihoyo/bbs/timeline"
       }
     ]
   },
@@ -28082,6 +28878,19 @@
       }
     ]
   },
+  "playpcesor.com": {
+    "_name": "电脑玩物",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#dian-nao-wan-wu",
+        "source": [
+          "/"
+        ],
+        "target": "/playpcesor"
+      }
+    ]
+  },
   "plurk.com": {
     "_name": "Plurk",
     ".": [
@@ -28212,6 +29021,19 @@
           "/"
         ],
         "target": "/postman/release-notes"
+      }
+    ]
+  },
+  "priconne-redive.jp": {
+    "_name": "プリンセスコネクト！Re:Dive",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/game#princess-connect-re-dive-%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88%EF%BC%81re-dive",
+        "source": [
+          "/news"
+        ],
+        "target": "/priconne-redive/news"
       }
     ]
   },
@@ -28363,6 +29185,20 @@
       }
     ]
   },
+  "pwc.com": {
+    "_name": "PwC Strategy&",
+    "strategyand": [
+      {
+        "title": "Sustainability",
+        "docs": "https://docs.rsshub.app/routes/other#pwc-strategy",
+        "source": [
+          "/at/en/functions/sustainability-strategy/publications.html",
+          "/"
+        ],
+        "target": "/pwc/strategyand/sustainability"
+      }
+    ]
+  },
   "qbitai.com": {
     "_name": "量子位",
     ".": [
@@ -28409,6 +29245,17 @@
           "/"
         ],
         "target": "/qdu/jwc"
+      }
+    ],
+    "houqin": [
+      {
+        "title": "后勤管理处通知",
+        "docs": "https://docs.rsshub.app/routes/university#qing-dao-da-xue",
+        "source": [
+          "/tzgg.htm",
+          "/"
+        ],
+        "target": "/qdu/houqin"
       }
     ]
   },
@@ -29939,6 +30786,19 @@
       }
     ]
   },
+  "sfacg.com": {
+    "_name": "SF 轻小说",
+    "book": [
+      {
+        "title": "章节",
+        "docs": "https://docs.rsshub.app/routes/reading#sf-qing-xiao-shuo",
+        "source": [
+          "/Novel/:id/*"
+        ],
+        "target": "/sfacg/novel/chapter/:id"
+      }
+    ]
+  },
   "shcstheatre.com": {
     "_name": "上海文化广场",
     "www": [
@@ -30585,6 +31445,19 @@
       }
     ]
   },
+  "shisu.edu.cn": {
+    "_name": "上海外国语大学",
+    "news": [
+      {
+        "title": "上外新闻",
+        "docs": "https://docs.rsshub.app/routes/university#shang-hai-wai-guo-yu-da-xue",
+        "source": [
+          "/:category/index.html"
+        ],
+        "target": "/shisu/news/:category"
+      }
+    ]
+  },
   "shmeea.edu.cn": {
     "_name": "上海市教育考试院",
     "www": [
@@ -30636,6 +31509,19 @@
           "/:type"
         ],
         "target": "/shmtu/www/:type"
+      }
+    ]
+  },
+  "shoac.com.cn": {
+    "_name": "上海东方艺术中心",
+    ".": [
+      {
+        "title": "演出月历",
+        "docs": "https://docs.rsshub.app/routes/shopping#shang-hai-dong-fang-yi-shu-zhong-xin",
+        "source": [
+          "/"
+        ],
+        "target": "/shoac/recent-show"
       }
     ]
   },
@@ -33421,6 +34307,16 @@
   },
   "tongji.edu.cn": {
     "_name": "同济大学",
+    "bksy": [
+      {
+        "title": "本科生院通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#tong-ji-da-xue",
+        "source": [
+          "/"
+        ],
+        "target": "/tongji/bks"
+      }
+    ],
     "sse": [
       {
         "title": "软件学院通知",
@@ -33662,6 +34558,411 @@
           "/pine-script-docs/en/:version/Release_notes.html"
         ],
         "target": "/tradingview/pine/:version"
+      }
+    ]
+  },
+  "transcriptforest.com": {
+    "_name": "Transcript Forest",
+    "www": [
+      {
+        "title": "All",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel"
+        ],
+        "target": "/transcriptforest"
+      },
+      {
+        "title": "a16z podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/a16z-podcast"
+        ],
+        "target": "/transcriptforest/a16z-podcast"
+      },
+      {
+        "title": "Aarthi and Sriram's Good Time Show",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/aarthi-and-srirams-good-time-show"
+        ],
+        "target": "/transcriptforest/aarthi-and-srirams-good-time-show"
+      },
+      {
+        "title": "Acquired",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/acquired"
+        ],
+        "target": "/transcriptforest/acquired"
+      },
+      {
+        "title": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/all-in-with-chamath-jason-sacks-friedberg"
+        ],
+        "target": "/transcriptforest/all-in-with-chamath-jason-sacks-friedberg"
+      },
+      {
+        "title": "All the Hacks",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/all-the-hacks"
+        ],
+        "target": "/transcriptforest/all-the-hacks"
+      },
+      {
+        "title": "Breaking Points",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/breaking-points"
+        ],
+        "target": "/transcriptforest/breaking-points"
+      },
+      {
+        "title": "Cartoon Avatars",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/cartoon-avatars"
+        ],
+        "target": "/transcriptforest/cartoon-avatars"
+      },
+      {
+        "title": "Conversations With Coleman",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/conversations-with-coleman"
+        ],
+        "target": "/transcriptforest/conversations-with-coleman"
+      },
+      {
+        "title": "CSPI Podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/cspi-podcast"
+        ],
+        "target": "/transcriptforest/cspi-podcast"
+      },
+      {
+        "title": "Culpable",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/culpable"
+        ],
+        "target": "/transcriptforest/culpable"
+      },
+      {
+        "title": "Dateline NBC",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/dateline-nbc"
+        ],
+        "target": "/transcriptforest/dateline-nbc"
+      },
+      {
+        "title": "Execs",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/execs"
+        ],
+        "target": "/transcriptforest/execs"
+      },
+      {
+        "title": "Exponent",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/exponent"
+        ],
+        "target": "/transcriptforest/exponent"
+      },
+      {
+        "title": "Freakonomics",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/freakonomics"
+        ],
+        "target": "/transcriptforest/freakonomics"
+      },
+      {
+        "title": "Future of StoryTelling",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/future-of-storytelling"
+        ],
+        "target": "/transcriptforest/future-of-storytelling"
+      },
+      {
+        "title": "Gamecraft",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/gamecraft"
+        ],
+        "target": "/transcriptforest/gamecraft"
+      },
+      {
+        "title": "Get WIRED",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/get-wired"
+        ],
+        "target": "/transcriptforest/get-wired"
+      },
+      {
+        "title": "Greymatter",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/greymatter"
+        ],
+        "target": "/transcriptforest/greymatter"
+      },
+      {
+        "title": "How I built this",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/how-I-built-this"
+        ],
+        "target": "/transcriptforest/how-I-built-this"
+      },
+      {
+        "title": "Huberman Lab",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/huberman-lab"
+        ],
+        "target": "/transcriptforest/huberman-lab"
+      },
+      {
+        "title": "ICYMI",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/icymi"
+        ],
+        "target": "/transcriptforest/icymi"
+      },
+      {
+        "title": "In Machines We Trust",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/in-machines-we-trust"
+        ],
+        "target": "/transcriptforest/in-machines-we-trust"
+      },
+      {
+        "title": "Invest Like the Best with Patrick O'Shaughnessy",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/invest-like-the-best-with-patrick-o-shaughnessy"
+        ],
+        "target": "/transcriptforest/invest-like-the-best-with-patrick-o-shaughnessy"
+      },
+      {
+        "title": "Joe Rogan Experience Review podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/joe-rogan-experience-review-podcast"
+        ],
+        "target": "/transcriptforest/joe-rogan-experience-review-podcast"
+      },
+      {
+        "title": "Land of Giants",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/land-of-giants"
+        ],
+        "target": "/transcriptforest/land-of-giants"
+      },
+      {
+        "title": "Lenny's Podcast: Product | Growth | Career",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/lenny-podcast-product-growth-career"
+        ],
+        "target": "/transcriptforest/lenny-podcast-product-growth-career"
+      },
+      {
+        "title": "Lex Fridman Podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/lex-fridman-podcast"
+        ],
+        "target": "/transcriptforest/lex-fridman-podcast"
+      },
+      {
+        "title": "Making Sense with Sam Harris",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/making-sense-with-sam-harris"
+        ],
+        "target": "/transcriptforest/making-sense-with-sam-harris"
+      },
+      {
+        "title": "Masters of Scale",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/masters-of-scale"
+        ],
+        "target": "/transcriptforest/masters-of-scale"
+      },
+      {
+        "title": "Modern Wisdom",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/modern-wisdom"
+        ],
+        "target": "/transcriptforest/modern-wisdom"
+      },
+      {
+        "title": "Moment of Zen",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/moment-of-zen"
+        ],
+        "target": "/transcriptforest/moment-of-zen"
+      },
+      {
+        "title": "Morbid",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/morbid"
+        ],
+        "target": "/transcriptforest/morbid"
+      },
+      {
+        "title": "My First Million",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/my-first-million"
+        ],
+        "target": "/transcriptforest/my-first-million"
+      },
+      {
+        "title": "Naval",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/naval"
+        ],
+        "target": "/transcriptforest/naval"
+      },
+      {
+        "title": "Newcomer Podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/newcomer-podcast"
+        ],
+        "target": "/transcriptforest/newcomer-podcast"
+      },
+      {
+        "title": "Not investment advice",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/not-investment-advice"
+        ],
+        "target": "/transcriptforest/not-investment-advice"
+      },
+      {
+        "title": "Odd Lots",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/odd-lots"
+        ],
+        "target": "/transcriptforest/odd-lots"
+      },
+      {
+        "title": "On with Kara Swisher",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/on-with-kara-swisher"
+        ],
+        "target": "/transcriptforest/on-with-kara-swisher"
+      },
+      {
+        "title": "Proof: A True Crime Podcast",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/proof-a-true-crime-podcast"
+        ],
+        "target": "/transcriptforest/proof-a-true-crime-podcast"
+      },
+      {
+        "title": "Reply All",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/reply-all"
+        ],
+        "target": "/transcriptforest/reply-all"
+      },
+      {
+        "title": "Revisionist History",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/revisionist-history"
+        ],
+        "target": "/transcriptforest/revisionist-history"
+      },
+      {
+        "title": "Serial",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/serial-podcast"
+        ],
+        "target": "/transcriptforest/serial-podcast"
+      },
+      {
+        "title": "Slow Burn",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/slow-burn"
+        ],
+        "target": "/transcriptforest/slow-burn"
+      },
+      {
+        "title": "StrictlyVC Download",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/strictlyvc-download"
+        ],
+        "target": "/transcriptforest/strictlyvc-download"
+      },
+      {
+        "title": "Stuff You Should Know:",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/stuff-you-should-know"
+        ],
+        "target": "/transcriptforest/stuff-you-should-know"
+      },
+      {
+        "title": "Subversive w/Alex Kaschuta",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/subversive-w-alex-kaschuta"
+        ],
+        "target": "/transcriptforest/subversive-w-alex-kaschuta"
+      },
+      {
+        "title": "TED Radio Hour",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/ted-radio-hour"
+        ],
+        "target": "/transcriptforest/ted-radio-hour"
+      },
+      {
+        "title": "The Bootstrapped Founder",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/the-bootstrapped-founder"
+        ],
+        "target": "/transcriptforest/the-bootstrapped-founder"
+      },
+      {
+        "title": "The Boyscast with Ryan Long",
+        "docs": "https://docs.rsshub.app/routes/multimedia#transcript-forest",
+        "source": [
+          "/en/channel/the-boyscast-with-ryan-long"
+        ],
+        "target": "/transcriptforest/the-boyscast-with-ryan-long"
       }
     ]
   },
@@ -33912,6 +35213,27 @@
           "/"
         ],
         "target": "/tvb/news/:category?/:language?"
+      }
+    ]
+  },
+  "tvtropes.org": {
+    "_name": "TV Tropes",
+    ".": [
+      {
+        "title": "Featured - Today's Featured Trope",
+        "docs": "https://docs.rsshub.app/routes/other#tvtropes-featured",
+        "source": [
+          "/"
+        ],
+        "target": "/tvtropes/featured/today"
+      },
+      {
+        "title": "Featured - Newest Trope",
+        "docs": "https://docs.rsshub.app/routes/other#tvtropes-featured",
+        "source": [
+          "/"
+        ],
+        "target": "/tvtropes/featured/newest"
       }
     ]
   },
@@ -34343,6 +35665,19 @@
           "/us",
           "/jp"
         ]
+      }
+    ]
+  },
+  "unraid.net": {
+    "_name": "Unraid",
+    ".": [
+      {
+        "title": "Community Apps",
+        "docs": "https://docs.rsshub.app/routes/program-update#unraid",
+        "source": [
+          "/community/apps"
+        ],
+        "target": "/unraid/community-apps"
       }
     ]
   },
@@ -35654,6 +36989,27 @@
           "/wizfile/download"
         ],
         "target": "/wizfile/updates"
+      }
+    ]
+  },
+  "wmc-bj.net": {
+    "_name": "World Meteorological Centre Beijing",
+    ".": [
+      {
+        "title": "Publish",
+        "docs": "https://docs.rsshub.app/routes/other#world-meteorological-centre-beijing-publish",
+        "source": [
+          "/publish/:category*"
+        ]
+      }
+    ]
+  },
+  "wmpvp.com": {
+    "_name": "完美世界电竞",
+    ".": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/routes/game#wan-mei-shi-jie-dian-jing-zi-xun"
       }
     ]
   },
@@ -37757,6 +39113,19 @@
           "/support/changelog"
         ],
         "target": "/zotero/versions"
+      }
+    ]
+  },
+  "zrblog.net": {
+    "_name": "赵容部落",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#zhao-rong-bu-luo",
+        "source": [
+          "/"
+        ],
+        "target": "/zrblog"
       }
     ]
   },

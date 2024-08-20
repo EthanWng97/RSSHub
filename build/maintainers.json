@@ -78,11 +78,11 @@
   "/0x80/blog": [
     "xnum"
   ],
-  "/141jav/{.*}?": [
+  "/141jav/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
-  "/141ppv/{.*}?": [
+  "/141ppv/:type/:keyword{.*}?": [
     "cgkings",
     "nczitzk"
   ],
@@ -186,6 +186,9 @@
   ],
   "/51cto/index/recommend": [
     "cnkmmk"
+  ],
+  "/51read/article/:id": [
+    "lazwa34"
   ],
   "/52hrtt/:area?/:type?": [
     "nczitzk"
@@ -423,6 +426,12 @@
     "zoenglinghou",
     "mjysci",
     "TonyRL"
+  ],
+  "/apnews/sitemap/:route": [
+    "zoenglinghou",
+    "mjysci",
+    "TonyRL",
+    "dzx-dzx"
   ],
   "/apnews/topics/:topic?": [
     "zoenglinghou",
@@ -910,6 +919,9 @@
   "/buaa/sme/:path{.+}?": [
     "MeanZhang"
   ],
+  "/buaa/lib/space/:path{newbook.*}": [
+    "OverflowCat"
+  ],
   "/buaa/news/:type": [
     "AlanDecode"
   ],
@@ -1087,7 +1099,7 @@
   "/cctv/lm/:id?": [
     "nczitzk"
   ],
-  "/cctv/xwlb": [
+  "/cctv/:site/:category/:name": [
     "zengxs"
   ],
   "/cde/:channel/:category": [
@@ -2185,7 +2197,7 @@
   ],
   "/gdsrx/:id?": [],
   "/gdut/oa_news/:type?": [
-    "Jim Kirisame"
+    "jim-kirisame"
   ],
   "/gelonghui/home/:tag?": [
     "TonyRL"
@@ -2216,6 +2228,9 @@
   ],
   "/gihyo/list/group/:id": [
     "masakichi"
+  ],
+  "/gisreportsonline/:path{.*}": [
+    "dzx-dzx"
   ],
   "/gitee/commits/:owner/:repo": [
     "TonyRL"
@@ -2339,6 +2354,9 @@
   ],
   "/google/news/:category/:locale": [
     "zoenglinghou"
+  ],
+  "/google/research": [
+    "Levix"
   ],
   "/google/scholar/:query": [
     "HenryQW"
@@ -2620,6 +2638,12 @@
   "/gov/zhengce/zhengceku/:department": [
     "zxx-457"
   ],
+  "/gov/zj/ningbogzw-notice/:colId?": [
+    "HaoyuLee"
+  ],
+  "/gov/zj/ningborsjnotice/:colId?": [
+    "HaoyuLee"
+  ],
   "/gov/zj/search/:websiteid?/:word/:cateid?": [
     "HaoyuLee"
   ],
@@ -2875,6 +2899,9 @@
     "nczitzk"
   ],
   "/hostmonit/cloudflareyesv6": [],
+  "/hottoys/": [
+    "jw0903"
+  ],
   "/hotukdeals/hottest": [
     "DIYgod"
   ],
@@ -3109,6 +3136,9 @@
   "/imiker/ask/jinghua": [
     "nczitzk"
   ],
+  "/imop/tianshu": [
+    "zhkgo"
+  ],
   "/indiansinkuwait/latest": [
     "TonyRL"
   ],
@@ -3139,6 +3169,11 @@
   ],
   "/informs/:category?": [
     "Fatpandac"
+  ],
+  "/infzm/hot": [
+    "KarasuShin",
+    "ranpox",
+    "xyqfer"
   ],
   "/infzm/:id": [
     "KarasuShin",
@@ -3371,6 +3406,9 @@
   ],
   "/jlu/ccst/xwzx/:category": [
     "mayouxi"
+  ],
+  "/joins/chinese/:category?": [
+    "nczitzk"
   ],
   "/jornada/:date?/:category?": [
     "Thealf154"
@@ -3629,6 +3667,9 @@
     "nczitzk",
     "ma6254"
   ],
+  "/lmu/jobs": [
+    "StarDxxx"
+  ],
   "/lofter/tag/:name?/:type?": [
     "hoilc",
     "nczitzk",
@@ -3879,6 +3920,9 @@
   ],
   "/misskey/notes/featured/:site": [
     "Misaka13514"
+  ],
+  "/misskey/users/notes/:username": [
+    "siygle"
   ],
   "/mittrchina/:type?": [
     "EsuRt",
@@ -5005,6 +5049,9 @@
   "/readwise/list/:routeParams?": [
     "xbot"
   ],
+  "/rebase/geekdaily": [
+    "gaoyifan"
+  ],
   "/remnote/changelog": [
     "TonyRL",
     "amakerlife"
@@ -5344,6 +5391,9 @@
     "lchtao26"
   ],
   "/showstart/search/:type/:keyword?": [
+    "lchtao26"
+  ],
+  "/showstart/site/:siteId": [
     "lchtao26"
   ],
   "/shu/:type?": [
@@ -5709,7 +5759,7 @@
   "/szu/yz/:type?": [
     "NagaruZ"
   ],
-  "/t66y/:id/:type?": [
+  "/t66y/:id/:type?/:search?": [
     "zhboner"
   ],
   "/t66y/post/:tid": [
@@ -5831,6 +5881,9 @@
   ],
   "/tgbus/list/:category": [
     "Xzonn"
+  ],
+  "/the/:filter{.+}?": [
+    "nczitzk"
   ],
   "/theatlantic/:category": [
     "EthanWng97"
@@ -6579,8 +6632,12 @@
   "/xiaohongshu/board/:board_id": [
     "lotosbin"
   ],
-  "/xiaohongshu/user/:user_id/notes/fulltext": [],
-  "/xiaohongshu/user/:user_id/:category": [],
+  "/xiaohongshu/user/:user_id/notes/fulltext": [
+    "howerhe"
+  ],
+  "/xiaohongshu/user/:user_id/:category": [
+    "lotosbin"
+  ],
   "/xiaomiyoupin/crowdfunding": [
     "bigfei"
   ],
@@ -6741,6 +6798,9 @@
   ],
   "/yicai/brief": [
     "sanmmm",
+    "nczitzk"
+  ],
+  "/yicai/carousel": [
     "nczitzk"
   ],
   "/yicai/dt/:column?/:category?": [

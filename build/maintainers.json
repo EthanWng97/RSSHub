@@ -254,6 +254,9 @@
     "nczitzk",
     "cscnk52"
   ],
+  "/6v123/:category{.+}?": [
+    "nczitzk"
+  ],
   "/6v123/latestMovies": [
     "tc9011"
   ],
@@ -292,6 +295,9 @@
   "/9to5/:subsite/:tag?": [],
   "/a9vg/:category{.+}?": [
     "monnerHenster",
+    "nczitzk"
+  ],
+  "/aa1/60s/:category?": [
     "nczitzk"
   ],
   "/aamacau/:category?/:id?": [],
@@ -1119,6 +1125,9 @@
   "/bookfere/:category": [
     "OdinZhang"
   ],
+  "/bookwalker/search/:filter?": [
+    "nczitzk"
+  ],
   "/booru/mmda/tags/:tags?": [
     "N78Wy"
   ],
@@ -1322,6 +1331,9 @@
   ],
   "/cbirc/:category?": [
     "JkCheung"
+  ],
+  "/cbndata/information/:id?": [
+    "nczitzk"
   ],
   "/cbnweek/": [
     "nczitzk"
@@ -2467,6 +2479,12 @@
   ],
   "/elasticsearch-cn/:params?": [
     "nczitzk"
+  ],
+  "/elecfans/article/:atype": [
+    "tian051011"
+  ],
+  "/elecfans/soft/:atype": [
+    "tian051011"
   ],
   "/eleduck/jobs": [
     "sfyumi"
@@ -3870,6 +3888,9 @@
   "/hubu/zhxy/:category{.+}?": [
     "nczitzk"
   ],
+  "/hudsonrivertrading/blog/:section?": [
+    "johan456789"
+  ],
   "/huggingface/blog-community/:sort?": [
     "yuguorui"
   ],
@@ -3880,8 +3901,9 @@
     "cesaryuan",
     "zcf0508"
   ],
-  "/huggingface/daily-papers": [
-    "zeyugao"
+  "/huggingface/daily-papers/:cycle?/:voteFliter?": [
+    "zeyugao",
+    "ovo-tim"
   ],
   "/hunanpea/rsks/:guid": [
     "TonyRL"
@@ -4087,6 +4109,9 @@
   ],
   "/imiker/ask/jinghua": [
     "nczitzk"
+  ],
+  "/immich/cursed-knowledge": [
+    "TonyRL"
   ],
   "/imop/tianshu": [
     "zhkgo"
@@ -7047,6 +7072,9 @@
   "/shu/journals/society/current": [
     "CNYoki"
   ],
+  "/shu/xxgk/:type?": [
+    "GhhG123"
+  ],
   "/shu/xykd/:type?": [
     "GhhG123"
   ],
@@ -7683,6 +7711,9 @@
   ],
   "/thecover/channel/:id?": [
     "yuxinliu-alex"
+  ],
+  "/thegadgetflow/:category?": [
+    "EthanWng97"
   ],
   "/thegradient/posts": [
     "liyaozhong"
